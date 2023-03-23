@@ -12,8 +12,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        printData(text: "Hello Swift")
     }
 
-
+    func printData(text:String){
+        print(text)
+    }
 }
 
